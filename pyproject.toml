@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bert-news-classification"
+version = "0.1.0"
+description = "Bert News Classification with mlflow"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mlflow = "^2.14.3"
+scikit-learn = "^1.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
